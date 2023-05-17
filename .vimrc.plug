@@ -1,0 +1,36 @@
+call plug#begin('~/.vim/plugged')
+
+"Mark tooltip / popup / flag things
+Plug 'kshenoy/vim-signature'
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+" Nerd tree
+Plug 'preservim/nerdtree'
+
+" Snippets
+Plug 'honza/vim-snippets'
+
+" Syntax checking
+Plug 'scrooloose/syntastic'
+Plug 'rust-lang/rust.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Second brain things
+Plug 'vimwiki/vimwiki'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'michal-h21/vim-zettel'
+
+" Nice writing things
+Plug 'reedes/vim-pencil' " Super-powered writing things
+Plug 'tpope/vim-abolish' " Fancy abbreviation replacements
+Plug 'junegunn/limelight.vim' " Highlights only active paragraph
+Plug 'junegunn/goyo.vim' " Full screen writing mode
+Plug 'reedes/vim-lexical' " Better spellcheck mappings
+Plug 'reedes/vim-litecorrect' " Better autocorrections
+Plug 'reedes/vim-textobj-sentence' " Treat sentences as text objects
+Plug 'reedes/vim-wordy' " Weasel words and passive voice
+
+call plug#end()
